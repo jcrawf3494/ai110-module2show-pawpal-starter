@@ -5,7 +5,58 @@
 **a. Initial design**
 
 - Briefly describe your initial UML design.
+            ACTIONS NEEDED: 
+            -Add a pet
+            -Schedule a walk
+            -Schedule a pick up
+            -See pet details
+            -See owner details
+            -Add owner
+            -Add notes on pet
+            -See daily schedule
+            -See tasks for pet 
+
 - What classes did you include, and what responsibilities did you assign to each?
+Objects needed: 
+Pet
+    Attributes
+            name
+            breed
+            allergies
+    Methods
+        add pet
+        add activity 
+        add notes
+        add name 
+        update information
+Owner
+    Attributes
+        name
+        pet name
+        contact info
+        payment information
+    Methods
+        Add owner
+        link owner to pet 
+        add additional pets
+        contact owner
+        take payment 
+Caretaker
+    Attributes
+        name
+        assigned pets. 
+        schedule 
+        contact information 
+        availability 
+    Methods
+        add assignment 
+        add schedule 
+        modify schedule 
+        contact
+        add assigned pet
+
+
+
 
 **b. Design changes**
 
